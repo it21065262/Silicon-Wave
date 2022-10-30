@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.android.foodorderapp.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-30T05:02:02" hostname="Randikas-MacBook-Pro.local" time="0.0">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.android.foodorderapp.ExampleUnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
