@@ -37,7 +37,7 @@ public class MainAdapter extends FirebaseRecyclerAdapter <item,MainAdapter.viewH
     }
 
     @Override
-    protected void onBindViewHolder(@NonNull viewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull item model) {
+    protected void onBindViewHolder(@NonNull final viewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull final item model) {
         holder.name.setText(model.getName());
         holder.price.setText(model.getPrice());
 
@@ -45,13 +45,13 @@ public class MainAdapter extends FirebaseRecyclerAdapter <item,MainAdapter.viewH
                 .load(model.getUrl())
                 .placeholder(R.drawable.b1)
                 .circleCrop()
-                .error(R.drawable.b1)
+                //.error(R.drawable.b1)
                 .into(holder.img);
 
         holder.btnUpdate.setOnClickListener(v -> {
             final DialogPlus dialogPlus = DialogPlus.newDialog(holder.img.getContext())
                     .setContentHolder(new ViewHolder(R.layout.update_popup))
-                    .setExpanded(true, 1200)
+                    .setExpanded(true, 1500)
                     .create();
 
             dialogPlus.show();
@@ -142,7 +142,7 @@ public class MainAdapter extends FirebaseRecyclerAdapter <item,MainAdapter.viewH
             name = (TextView) itemView.findViewById(R.id.nametext);
             price = (TextView) itemView.findViewById(R.id.pricetext);
             btnDelete = (Button) itemView.findViewById(R.id.btnDelete);
-            btnUpdate = (Button) itemView.findViewById(R.id.btnUpdatePop);
+            btnUpdate = (Button) itemView.findViewById(R.id.btnEdit);
         }
     }
 }

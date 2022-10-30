@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.SearchView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -39,12 +38,9 @@ public class burger extends AppCompatActivity
         recyclerView.setAdapter(mainAdapter);
 
         floatingActionButton = (FloatingActionButton)findViewById(R.id.floatingActionButton);
-        floatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),AddActivity.class));
-            }
-        });
+
+        floatingActionButton.setOnClickListener(view ->
+                startActivity(new Intent(getApplicationContext(),AddActivity.class)));
     }
 
     @Override

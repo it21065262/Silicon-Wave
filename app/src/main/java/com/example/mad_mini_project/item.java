@@ -4,9 +4,9 @@ import android.media.Image;
 
 public class item {
 
-    private String name;
-    private String price;
-    private String url;
+    private  String name;
+    private  String price;
+    private  String url;
 
     public item() {
 
@@ -23,22 +23,18 @@ public class item {
     }
 
     public void setName(String name) {
-
         this.name = name;
     }
 
     public String getPrice() {
-
         return price;
     }
 
     public void setPrice(String price) {
-
         this.price = price;
     }
 
     public String getUrl() {
-
         return url;
     }
 
