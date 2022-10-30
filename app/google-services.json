@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "191680451753",
+    "firebase_url": "https://mad-project1-f292c-default-rtdb.firebaseio.com",
+    "project_id": "mad-project1-f292c",
+    "storage_bucket": "mad-project1-f292c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191680451753:android:e304c14662ba03079245b8",
+        "android_client_info": {
+          "package_name": "com.example.final_mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191680451753-tlfjgt2ednlegs2hk502bunit96s3eve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4qYJ3D01iMQPMwvHB4l9B0DiuIf_rxGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191680451753-tlfjgt2ednlegs2hk502bunit96s3eve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191680451753:android:de96eb2f81998abf9245b8",
+        "android_client_info": {
+          "package_name": "com.example.mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191680451753-tlfjgt2ednlegs2hk502bunit96s3eve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4qYJ3D01iMQPMwvHB4l9B0DiuIf_rxGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191680451753-tlfjgt2ednlegs2hk502bunit96s3eve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191680451753:android:bc07ef9d264049269245b8",
+        "android_client_info": {
+          "package_name": "com.example.mad_mini_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191680451753-tlfjgt2ednlegs2hk502bunit96s3eve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4qYJ3D01iMQPMwvHB4l9B0DiuIf_rxGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191680451753-tlfjgt2ednlegs2hk502bunit96s3eve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
