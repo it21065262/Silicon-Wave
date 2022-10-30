@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Mad_Mini_Project</string>
-    <string name="Save">Save</string>
-    <string name="Show">Show</string>
-    <string name="Update">Update</string>
-    <string name="Delete">Delete</string>
-    <string name="btnEdit">btnEdit</string>
-    <string name="btnDelete">Delete</string>
-</resources>
